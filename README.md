@@ -4,7 +4,8 @@ GANs short for Generative Adversarial Networks consist of two neural networks(Ge
 
 ## Dataset
 This uses the celebA dataset put together by Liu et al.
-You can download the dataset [here](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
+You can see the dataset [here](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
+Udacity has been kind enough to preprocess the data to only include faces and resize the images to 64x64x3 Numpy images. On downloading the preprocessed dataset from this [link](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip), you must extract it to the directory of the notebook.
 
 ## Honor System
 I am leaving this open source on the honor system. Please do not plagarize my code! You will only learn by investing the time to work through the projects yourself!
@@ -15,3 +16,5 @@ I am leaving this open source on the honor system. Please do not plagarize my co
 - Numpy
 - Pytorch
 - Torchvision
+- Pickle
+- Matplotlib
